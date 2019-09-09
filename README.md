@@ -1,8 +1,10 @@
 # okbrute.py
 
 ## Description
-Simple python script to test credentials against an Okta hosted Sign-In widget. Just supply the subdomain (`<target>.okta.com`), username(s), and password(s) and it'll take care of the rest. Only uses the Python standard library.
+Simple python script to test credentials against an Okta hosted Sign-In widget. Just supply the subdomain (`<target>.okta.com`), username(s), and password(s) and it'll take care of the rest. 
 
+## Requirements
+Only needs the `requests` library. Install with `pip install requests`.
 
 ## Options
 
